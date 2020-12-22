@@ -146,17 +146,20 @@ ProductPublishList = (
     { 'ProductName' : 'Xlpd', 'Version' : 4, 'PublishDate' : datetime.date(2010, 8, 1) },
     { 'ProductName' : 'Xftp', 'Version' : 4, 'PublishDate' : datetime.date(2010, 8, 1) },
     { 'ProductName' : 'Xmanager Enterprise', 'Version' : 4, 'PublishDate' : datetime.date(2010, 8, 1) },
+    
     { 'ProductName' : 'Xmanager', 'Version' : 5, 'PublishDate' : datetime.date(2014, 4, 28) },
     { 'ProductName' : 'Xshell', 'Version' : 5, 'PublishDate' : datetime.date(2014, 4, 28) },
     { 'ProductName' : 'Xlpd', 'Version' : 5, 'PublishDate' : datetime.date(2014, 4, 28) },
     { 'ProductName' : 'Xftp', 'Version' : 5, 'PublishDate' : datetime.date(2014, 4, 28) },
     { 'ProductName' : 'Xmanager Enterprise', 'Version' : 5, 'PublishDate' : datetime.date(2014, 4, 28) },
+    
     { 'ProductName' : 'Xmanager', 'Version' : 6, 'PublishDate' : datetime.date(2018, 4, 29) },
     { 'ProductName' : 'Xshell', 'Version' : 6, 'PublishDate' : datetime.date(2018, 4, 29) },
     { 'ProductName' : 'Xshell Plus', 'Version' : 6, 'PublishDate' : datetime.date(2018, 4, 29) },
     { 'ProductName' : 'Xlpd', 'Version' : 6, 'PublishDate' : datetime.date(2018, 4, 29) },
     { 'ProductName' : 'Xftp', 'Version' : 6, 'PublishDate' : datetime.date(2018, 4, 29) },
     { 'ProductName' : 'Xmanager Enterprise', 'Version' : 6, 'PublishDate' : datetime.date(2018, 4, 29) },
+    
     { 'ProductName' : 'Xmanager', 'Version' : 7, 'PublishDate' : datetime.date(2020, 12, 14) },
     { 'ProductName' : 'Xshell', 'Version' : 7, 'PublishDate' : datetime.date(2020, 12, 14) },
     { 'ProductName' : 'Xshell Plus', 'Version' : 7, 'PublishDate' : datetime.date(2020, 12, 14) },
