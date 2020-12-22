@@ -68,8 +68,8 @@ LicenseType = [
     [ ProductCode['Xshell'], 0x52, 0, 'Educational', 2],
     [ ProductCode['Xshell'], 0x55, 0, 'Standard', 1],
     [ ProductCode['Xshell'], 0x56, 0, 'Educational', 1],
-    [ ProductCode['Xshell'], 0x60, 0, 'Standard', 1],   # ������
-    [ ProductCode['Xshell'], 0x61, 0, 'Standard', 2],   # ������
+    [ ProductCode['Xshell'], 0x60, 0, 'Standard', 1],
+    [ ProductCode['Xshell'], 0x61, 0, 'Standard', 2],
     [ ProductCode['Xshell'], 0x62, 0, 'Standard', 1],
     [ ProductCode['Xshell'], 0x63, 0, 'Standard', 2],
     [ ProductCode['Xlpd'], 0x0B, 0, 'Standard', 2],
@@ -156,7 +156,13 @@ ProductPublishList = (
     { 'ProductName' : 'Xshell Plus', 'Version' : 6, 'PublishDate' : datetime.date(2018, 4, 29) },
     { 'ProductName' : 'Xlpd', 'Version' : 6, 'PublishDate' : datetime.date(2018, 4, 29) },
     { 'ProductName' : 'Xftp', 'Version' : 6, 'PublishDate' : datetime.date(2018, 4, 29) },
-    { 'ProductName' : 'Xmanager Enterprise', 'Version' : 6, 'PublishDate' : datetime.date(2018, 4, 29) }
+    { 'ProductName' : 'Xmanager Enterprise', 'Version' : 6, 'PublishDate' : datetime.date(2018, 4, 29) },
+    { 'ProductName' : 'Xmanager', 'Version' : 7, 'PublishDate' : datetime.date(2020, 12, 14) },
+    { 'ProductName' : 'Xshell', 'Version' : 7, 'PublishDate' : datetime.date(2020, 12, 14) },
+    { 'ProductName' : 'Xshell Plus', 'Version' : 7, 'PublishDate' : datetime.date(2020, 12, 14) },
+    { 'ProductName' : 'Xlpd', 'Version' : 7, 'PublishDate' : datetime.date(2020, 12, 14) },
+    { 'ProductName' : 'Xftp', 'Version' : 7, 'PublishDate' : datetime.date(2020, 12, 14) },
+    { 'ProductName' : 'Xmanager Enterprise', 'Version' : 7, 'PublishDate' : datetime.date(2020, 12, 14) }
 )
 
 def GetChecksum(preProductKey : str):
@@ -198,4 +204,4 @@ def GenerateProductKey(IssueDate : datetime.date,
     ProductKey = preProductKey + '%03d' % Checksum
     return ProductKey
 
-print(GenerateProductKey(datetime.date(2017, 12, 15), 'Xmanager Enterprise', 5, 999))
+print(GenerateProductKey(datetime.date(2020, 12, 22), 'Xmanager Enterprise', 7, 999))
